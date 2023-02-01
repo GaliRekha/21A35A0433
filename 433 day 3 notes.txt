@@ -1,0 +1,152 @@
+1. print range of numbers using c and python.
+2.print the prime numbers from 1 to n in python.
+3.calculate the value in a nibble to an binary output.
+    [6>>+2]
+ans) binary value of 6=0110
++2 is given.so right shift 2 times.
+then 0001 1000
+in question,take only nibble value.so output is 0001 means in decimal it is 1.
+
+4.write a python program to perform general swapping by using  addition and subtraction.
+a=int(input("enter a value:"))
+b=int(input("enter a value:"))
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a+b
+b=a-b
+a=a-b
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+      (or)
+
+a=int(input("enter a value:"))
+b=int(input("enter a value:"))
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a*b
+b=a/b
+a=a/b
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+5.swapping using circumflex, means using power.
+
+a=int(input("enter a value:"))
+b=int(input("enter a value:"))
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a^b
+b=a^b
+a=a^b
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+6.num=[1,2,3,4,5,6,7,8,9,10]
+print(num)
+print("first element",num[0])
+
+7.for slice
+num=[1,2,3,4,5,6,7,8,9,10]
+print(num)
+print(num[2:5])
+
+8.num=[1,2,3,4,5,6,7,8,9,10]
+print(num)
+print(num[ : :2]) #print the numbers using step size
+
+9.for deleting use del key
+num=[1,2,3,4,5,6,7,8,9,10]
+print(num)
+del num[3]
+
+10.num=[1,'a',"abc",[2,3,4],5.6]
+print(num)
+print(num[2]) #to print a list
+print(num[3][1]) #to print number in a list of list
+
+11.concatination = [1,2,3]+[3,4,5]
+output=1,2,3,4,5,6
+repitition="vijay" "komarapu"*5
+in====a in[a,e,i,o,u]
+not in====b not in[a,e,i,o,u]
+
+example for repitition
+num=[1,'a',"abc",[2,3,4],5.6]
+print(num)
+print("rekha" +"gali"*3)
+
+12.num=[100,2,40,56,-8]
+print(min(num)) #for min value
+
+13.sum of n numbers
+n=int(input("enter a value:"))
+i=1
+s=0
+while i<=n:
+    s=s+i
+    i+=1
+    print(s)
+
+14.num=str(input())   #for test case of base 17
+print(int(num,17))
+
+
+15.num=]1,2,5,,6,3,8,19,45,4]
+ print(sorted(num))   #for performing sorting
+
+
+16.(.) operator is called  access grant operator.
+
+17.append means adding a element at the tail of the list.
+
+num=[2,-43,34,19,45]
+num.append(0)
+print(num)
+
+
+18.num=[2,4,3,19,6,5]
+print(num.index(3))    #if we give number ,it shows the index of the number
+
+19.num=[2,4,3,19,6,5]
+num.insert(3,50)
+print(num)
+
+
+20.num=[2,4,3,19,6,5]
+num.remove(3)
+print(num)
+
+21.num=[2,4,3,19,6,5]
+num.reverse()    #to reverse the list
+print(num)
+
+22.armstrong number program
+
+23.write a python program to make a lists of queues till the value n.
+test case-1:n=10
+output:[0,1,8,27,.....1000]
+
+24.write a python program to find the absolute value for the difference in between 
+theeven and odd digits of the given number.
+test case-1:1223
+test case-2:4567
+test case-3:123456789
+ 
+25.geometric series:
+  1,1,2,3,4,9,8,27,16,81,32....
+ find 16th term(even term) and 13th term(odd term)
+
+26.
+
+
+
+
+
+
